@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&display=swap');
+
+*{
+    background-color: rgb(35, 36, 53);
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+
+li, a, button {
+    font-family: 'JetBrains Mono', monospace ;
+    font-weight: 600px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'JetBrains Mono', monospace;
+    color: azure;
+    padding: 30px 10%;
+}
+
+.navlinks{
+    list-style: none;
+}
+
+.navlinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+.navlinks li a:hover{
+    color: aqua;
+}
+
+button{
+    padding: auto;
+    background-color: rgba(0,136,169,1);
+    border:none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color:rgba(0,136,169,0.5) ;
+}
+.hero button #intouch{
+    margin-top: 100px;
+}
+
+.hero{
+    margin: 80px;
+    padding-top: 10px;
+}
+
+.hero, #title {
+    font-family: 'JetBrains Mono', monospace;
+    color: azure;
+}
+.hero span {
+    color: aqua;
+}
