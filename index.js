@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'An aspiring front end developer and user experience designer!';
+var txt = 'An aspiring front end developer and user experience designer!!';
 var speed = 50;
 
 function typeWritter () {
